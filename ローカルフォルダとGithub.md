@@ -1,5 +1,5 @@
 参考記事：https://zenn.dev/divsawa/articles/20251012_teaching-github-gitinit
-1. ローカルリポジトリを初期化 ```
+1. ローカルリポジトリを初期化 
    ```
    # ローカルリポジトリに移動(bashにドラッグアンドドロップでもできる)
    cd ~/Desktop/my-project
@@ -47,7 +47,7 @@ origin git@github.com:ユーザー名/my-project.git(push)
    git push origin main
    ```  
 
-~Githubにあるコマンドたち~
+# Githubにあるコマンドたち
 ```
 echo "#" >> README.md
 git init
@@ -63,7 +63,7 @@ git push -u origin main
 ```
 上のやり方はだいぶ端折っているのでないコマンドもあるが大体あんな感じの流れになる
 
-~SSH認証~
+# SSH認証
 筆者はSSHで初めて設定して躓いた。
 SSH鍵なるものをつくらしいのだ(Claudeに聞いた)
 1. 鍵の作成
